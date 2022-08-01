@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 import pandas as pd 
 
 # Importing the Keras libraries and packages
-from keras.model import Sequential
-from keras.layers import Dense
-from keras.layers import LSTM
-from keras.layers import Dropout
+from tensorflow.keras.model import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import LSTM
+from tensorflow.keras.layers import Dropout
 
 # Get model
 def getModel(X_train):
